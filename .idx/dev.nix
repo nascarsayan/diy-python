@@ -19,10 +19,8 @@
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
-        create-venv = ''
-          python -m venv .venv
-          source .venv/bin/activate
-          pip install -r requirements.txt
+        install = ''
+          python -m venv .venv && curl -sSL https://install.python-poetry.org | python -
         '';
         # Open editors for the following files by default, if they exist:
         default.openFiles = [ "day1.ipynb" ];
