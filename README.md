@@ -1,4 +1,4 @@
-<a href="https://idx.google.com/new?template=https%3A%2F%2Fgithub.com%2Fnascarsayan%2Fdiy-python">
+<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fnascarsayan%2Fdiy-python.git">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
