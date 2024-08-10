@@ -25,8 +25,9 @@
           pip install -r requirements.txt
         '';
         # Open editors for the following files by default, if they exist:
-        default.openFiles = [ "main.ipynb" ];
+        default.openFiles = [ "day1.ipynb" ];
       };
+      
       # To run something each time the workspace is (re)started, use the `onStart` hook
     };
     # Enable previews and customize configuration
